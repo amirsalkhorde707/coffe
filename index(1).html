@@ -293,6 +293,7 @@ const menu=[
 ].map(c=>({...c,items:c.items.map(([name,price,img='',emoji])=>({
   name,price,img:img?'Images/'+img:'',emoji:emoji||c.emoji}))}));
 
+
 const $=id=>document.getElementById(id);
 const content=$('content'), tabsEl=$('tabs'), header=$('siteHeader');
 
